@@ -8,9 +8,8 @@ class App extends React.Component {
     return (
       <div>
         <Header />
-        <SolarSystem>
-          <Title />
-        </SolarSystem>
+        <SolarSystem />
+        <Title />
       </div>
     );
   }
