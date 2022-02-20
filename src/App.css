@@ -1,3 +1,83 @@
 .App {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+h1 {
+  color: aliceblue;
+  font-size: 70px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+h2 {
+  color: white;
+  font-size: 50px;
+}
+
+.planet-gallery {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 500px;
+  justify-content: space-around;
+  margin-left: 15%;
+  overflow-x: scroll;
+  width: 900px;
+}
+
+.planet-card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.planet-name {
+  background-color: rgba(28, 27, 83, 0.815);
+  color: aquamarine;
+  font-size: 30px;
+  height: 50px;
+  text-align: center;
+  width: 200px;
+}
+
+.missions-gallery {
+  display: flex;
+  flex-flow: row wrap;
+  height: 300px;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  overflow-y: scroll;
+}
+
+.mission-card {
+  align-items: center;
+  background: rgb(126, 142, 143);
+  border-radius: 15px;
+  box-shadow: 2px 3px rgb(132, 143, 143);
+  display: flex;
+  flex-direction: column;
+  height: 240px;
+  justify-content: center;
+  margin: 0 10px 15px 0;
+  width: 180px;
+}
+
+.mission-card p {
+  display: flex;
+  font-size: 18px;
+  justify-items: center;
   text-align: center;
 }
