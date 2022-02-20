@@ -43,6 +43,10 @@ h2 {
   justify-content: center;
 }
 
+.img-planet {
+  width: 410px;
+}
+
 .planet-name {
   background-color: rgba(28, 27, 83, 0.815);
   color: aquamarine;
